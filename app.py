@@ -188,7 +188,7 @@ with tab1:
                         st.error("Input vector has more features than expected by the model.")
                         st.stop()
                     prediction_arr = regressor.predict(final_input)
-                    prediction = int(prediction_arr)
+                    prediction = int(prediction_arr[0])
                     predicted_run_rate = prediction / 20
                     st.success(f"🏏 **Predicted Final Score Range: {max(0, prediction - 5)} – {prediction + 10}**")
                     st.metric("Projected Final Run Rate", f"{predicted_run_rate:.2f}")
