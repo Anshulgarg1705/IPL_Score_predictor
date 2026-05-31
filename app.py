@@ -25,14 +25,14 @@ st.title("🏏 IPL Score Predictor")
 
 # Team logos dict with user's provided absolute paths
 team_logos = {
-    'Chennai Super Kings': 'C:/Users/hp/Documents/IPL Score predictor/Images/csk.png',
-    'Delhi Daredevils': 'C:/Users/hp/Documents/IPL Score predictor/Images/dd.png',
-    'Kings XI Punjab': 'C:/Users/hp/Documents/IPL Score predictor/Images/kxip.png',
-    'Kolkata Knight Riders': 'C:/Users/hp/Documents/IPL Score predictor/Images/kkr.png',
-    'Mumbai Indians': 'C:/Users/hp/Documents/IPL Score predictor/Images/mi.jpg',
-    'Rajasthan Royals': 'C:/Users/hp/Documents/IPL Score predictor/Images/rr.png',
-    'Royal Challengers Bangalore': 'C:/Users/hp/Documents/IPL Score predictor/Images/rcb.png',
-    'Sunrisers Hyderabad': 'C:/Users/hp/Documents/IPL Score predictor/Images/srh.png'
+    'Chennai Super Kings': 'Images/csk.png',
+    'Delhi Daredevils': 'Images/dd.png',
+    'Kings XI Punjab': 'Images/kxip.png',
+    'Kolkata Knight Riders': 'Images/kkr.png',
+    'Mumbai Indians': 'Images/mi.jpg',
+    'Rajasthan Royals': 'Images/rr.png',
+    'Royal Challengers Bangalore': 'Images/rcb.png',
+    'Sunrisers Hyderabad': 'Images/srh.png'
 }
 
 venue_options = [
