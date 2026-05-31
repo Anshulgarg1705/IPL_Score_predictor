@@ -15,7 +15,7 @@ with open('scaler.pkl', 'rb') as f:
 # --- Page config ---
 st.set_page_config(page_title="IPL Score Predictor", page_icon="🏏", layout="centered")
 
-banner_path = "C:/Users/hp/Documents/IPL Score predictor/Images/ipl_banner.jpg"
+banner_path ="Images/ipl_banner.jpg"
 if os.path.isfile(banner_path):
     st.image(banner_path, use_container_width=True)
 else:
